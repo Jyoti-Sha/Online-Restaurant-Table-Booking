@@ -1,0 +1,506 @@
+/* Code Of Index Page */
+*
+{
+	margin:0px;
+	padding:0px;
+}
+#outer
+{
+	height:800px;
+	width:900px;
+	margin:0px auto;
+}
+/* Code Of Registration Page */
+#header
+{
+	height:50px;
+	width:900px;
+	background:springgreen;
+}
+#header p
+{
+	font-size:25px;
+	line-height:50px;
+	font-weight:bold;
+	font-family:Jokerman;
+	padding-left:10px;
+	text-shadow:0px 2px 1px white;
+}
+/* Code For Title */
+#title
+{
+	height:100px;
+	width:900px;
+	background:chocolate;
+}
+#title p
+{
+	font-size:35px;
+	font-weight:bold;
+	font-family:Curlz MT;
+	text-align:center;
+	line-height:100px;
+	color:white;
+	text-shadow:2px 2px 1px green;
+}
+/*Code For Menu*/
+#menu
+{
+	height:50px;
+	width:900px;
+	background:gold;
+	margin-top:-10px;
+}
+#menu ul
+{
+	list-style:none;
+}
+#menu ul li
+{
+	height:20px;
+	width:125px;
+	padding-right:3px;
+	float:left;
+	margin-left:-3px;
+	text-align:center;
+}
+#menu ul li a
+{
+	text-decoration:none;
+	font-size:20px;
+	line-height:50px;
+	font-weight:bold;
+	font-family:Algerian;
+	margin-right:-3px;
+	color:maroon;
+}
+#menu ul li a:hover
+{
+	text-decoration:none;
+	font-size:20px;
+	padding-right:0px;
+	line-height:50px;
+    font-weight:bold;
+	font-family:Lucida Calligraphy;
+	color:maroon;
+	background:burlywood;
+	display:block;
+}
+/* Code For Slider */
+#slider
+{
+	height:250px;
+	width:900px;
+	background-size:100% 100%;
+	animation-duration:15s;
+	animation-iteration-count:infinite;
+}
+#slider1
+{
+	height:250px;
+	width:600px;
+	float:left;
+}
+#slider2
+{
+	height:250px;
+	width:300px;
+	background:url("image/logo.jpg");
+	float:left;
+}
+/*Code For Info*/
+#info
+{
+	height:50px;
+	width:900px;
+	background:orange;
+	text-shadow:2px 1px 0px white;
+}
+#info p
+{
+	color:green;
+	font-family:Segoe Script;
+	font-size:30px;
+}
+
+/* Code For middle content */
+#middle
+	  {
+	     height:250px;
+		 width:900px;
+		 background:orange;
+	  }
+#middle1
+{
+   height:250px;
+   width:300px;
+   background:forestgreen;  
+   float:left;   
+}
+#middle1 h1
+{
+	
+	text-align:center;
+	color:white;
+	text-decoration:underline;
+	text-shadow:white;
+}
+#middle1 ul li
+{
+	
+	text-align:left;
+	font-size:22px;
+	color:yellow;
+	
+	font-family:Lucida Calligraphy;
+}
+#middle2
+{
+	height:250px;
+	width:600px;
+	font-size:20px;
+	color:purple;
+	float:left;
+}
+/*Code For About Page*/
+#about
+{
+	height:600px;
+	width:900px;
+	background:limegreen;
+	color:midnightblue;
+	font-family:Lucida Calligraphy;
+	text-decoration:underline;
+}
+#about1
+{
+	height:200px;
+	width:900px;
+}
+#abt1
+{
+	height:200px;
+	width:600px;
+	background:limegreen;
+	float:left;
+}
+#abt2
+{
+	height:200px;
+	width:300px;
+	background:url("image/rest.jpg");
+	float:left;
+}
+#about2
+{
+	height:200px;
+	width:900px;
+	background:gray;
+}
+#abt21
+{
+		height:200px;
+	width:300px;
+	background:url("image/h5.jpg");
+	float:left;
+}
+#abt22
+{
+		height:200px;
+	width:600px;
+	background:forestgreen;
+	float:left;
+}
+
+#about3
+{
+	height:200px;
+	width:900px;
+	background:lightgray;
+}
+#abt31
+{
+	height:200px;
+	width:300px;
+	background:url("image/screen7.jpg");
+	float:left;
+}
+#abt32
+{
+	height:200px;
+	width:300px;
+	background:green;
+	float:left;
+}
+#abt33
+{
+	height:200px;
+	width:300px;
+	background:url("image/screen.jpg");
+	float:left;
+}
+/*  Code For Gallery*/
+#picture
+{
+	height:600px;
+	width:900px;
+	background:springgreen;
+}
+#pic1
+{
+	height:200px;
+	width:900px;
+	float:left;
+}
+#pic11
+{
+		height:200px;
+	width:300px;
+	background:url("image/dow1.jpg");
+	float:left;
+}
+#pic12
+{
+		height:200px;
+	width:300px;
+	background:url("image/dow4.jpg");
+	float:left;
+}
+#pic13
+{
+		height:200px;
+	width:300px;
+	background:url("image/food13.jpg");
+	float:left;
+}
+#pic2
+{
+		height:200px;
+	width:900px;
+	float:left;
+}
+#pic21
+{
+		height:200px;
+	width:300px;
+	background:url("image/imag3.jpg");
+	float:left;
+}
+#pic22
+{
+		height:200px;
+	width:300px;
+	background:url("image/imag23.jpg");
+	float:left;
+}
+#pic23
+{
+		height:200px;
+	width:300px;
+	background:url("image/ital6.jpg");
+	float:left;
+}
+#pic3
+{
+		height:200px;
+	width:900px;
+	float:left;
+}
+#pic31
+{
+		height:200px;
+	width:300px;
+	background:url("image/imag8.jpg");
+	float:left;
+}
+#pic32
+{
+		height:200px;
+	width:300px;
+	background:url("image/coffee.jpg");
+	float:left;
+}
+#pic33
+{
+		height:200px;
+	width:300px;
+	background:url("image/imag7.jpg");
+	float:left;
+}
+/* Code For Services*/
+#service
+{
+	height:600px;
+	width:900px;
+	background:url("image/rest01.jpg");
+	   
+}
+#service1
+{
+	height:600px;
+	width:300px;
+	float:left;
+}
+
+#service2
+{
+	height:600px;
+	width:600px;
+	float:left;
+}
+#service2 h1
+{
+	font-family:Lucida Calligraphy;
+	color:white;
+	padding-top:10px;
+	text-decoration:underline;
+}
+#service2 h1:hover
+{
+	color:yellow;
+
+}
+/*Code For Contact*/
+#contact
+{
+	height:600px;
+	width:900px;
+    background:coral;
+}
+#contact1
+{
+	height:300px;
+	width:900px;
+	
+}
+
+#contact2
+{
+	height:300px;
+	width:900px;
+	
+}
+#contact21
+{
+	height:300px;
+	width:390px;
+	padding-left:60px;
+	font-family:Lucida Calligraphy;
+    background:rosybrown;
+	float:left;
+}
+#contact22
+{
+	height:300px;
+	width:370px;
+	padding-left:80px;
+	font-family:Lucida Calligraphy;
+    background:rosybrown;
+    float:left;
+	}
+/*Code For login*/
+#signin
+{
+	height:600px;
+	width:900px;
+	background:url("image/screen3.jpg");
+	opacity:0.9;
+}
+#in1
+{
+	height:600px;
+	width:250px;
+	padding-left:50px;
+	font-family:Lucida Calligraphy;
+	color:white;
+}
+#in1 table
+{
+		height:300px;
+	width:300px;
+	font-family:Lucida Calligraphy;
+	color:white;
+	
+}
+#in2
+{
+		height:600px;
+	width:300px;
+}
+#in3
+{
+		height:600px;
+	width:300px;
+}
+/*Code For Signup*/
+#signup
+{
+	height:600px;
+	width:900px;
+	background:url("image/hf3.jpg")
+}
+#up1
+{
+	height:600px;
+	width:250px;
+	padding-left:50px;
+	font-family:Lucida Calligraphy;
+	float:left;
+}
+#up1 h3
+{
+	color:white;
+}
+#up1 table
+{
+		height:300px;
+	width:300px;
+	font-family:Lucida Calligraphy;
+	color:white;
+}
+#up2
+{
+	height:600px;
+	width:300px;
+	float:left;
+}
+#up3
+{
+	height:600px;
+	width:300px;
+	float:left;
+}
+
+/*Code For Footer*/	  
+#footer{
+	     height:50px;
+		 background:olive;
+		 width:900px;
+	   }
+	   #foot1{
+	     height:50px;
+		 width:400px;
+		 float:left;
+	   }
+	   #foot1 p{
+	     color:white;
+		 font-size:10px;
+		 font-weight:bold;
+		 text-align:left;
+		 line-height:50px;
+		 letter-spacing:2px;
+	   }
+	   #foot2{
+	     height:50px;
+		 width:500px;
+		 float:left;
+	   }
+	   #foot2 p{
+	     color:white;
+		 font-size:10px;
+		 font-weight:bold;
+		 text-align:right;
+		 padding-left:-4px;
+		 line-height:50px;
+		 letter-spacing:2px;
+	   }

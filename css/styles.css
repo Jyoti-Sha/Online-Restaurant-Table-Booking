@@ -1,0 +1,94 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+#outer
+{
+	height:700px;
+	width:900px;
+	border:1px solid black;
+	margin:0px auto;
+}
+#menu
+{
+	height:100px;
+	width:900px;
+	background:teal;
+}
+#menu ul
+{
+	list-style:none;
+}
+#menu ul li
+{
+	height:80px;
+	width:200px;
+	padding-right:2px;
+	float:left;
+	text-align:center;
+}
+#menu ul li a
+{
+	text-decoration:none;
+	font-size:20px;
+	line-height:70px;
+	font-weight:bold;
+	font-family:Algerian;
+	color:white;
+}
+#menu ul li a:hover
+{
+	text-decoration:none;
+	font-size:20px;
+	padding-right:0px;
+	line-height:70px;
+    font-weight:bold;
+	font-family:Lucida Calligraphy;
+	color:white;
+	background:burlywood;
+	display:block;
+}
+.submenu
+{
+	display:none;
+	position:absolute;
+	list-style-type:none;
+	padding:0px;
+}
+#menu li:hover .submenu
+{
+	display:block;  
+}
+.submenu li
+{
+	width:300px;
+	margin-top:10px;
+}
+.submenu li a
+{
+	color:white;
+	background:black;
+	
+	text-decoration:none;
+}
+.submenu li a:hover
+{
+	color:black;
+	background:grey;
+}
+#middle
+{
+	height:600px;
+	width:900px;
+    background:url("image/rest15.jpg");
+}
+#restaurant
+{
+	height:600px;
+	width:900px;
+	/*background:url("image/hh.jpg");
+	background-size:100% 100%;*/
+	opacity:0.9;
+	
+}
